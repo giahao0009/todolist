@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon"
+        href="https://icons-for-free.com/iconfiles/png/512/done+exam+list+pencil+todo+icon-1320196901489830645.png"
+        type="image/x-icon">
+    <title>Todo list vanilla</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1 class="header-title">Todo list</h1>
+    </header>
+    <section id="main">
+        <ul class="box-list-todo">
+
+        </ul>
+        <div class="form-todo">
+            <h2>Thêm công việc</h2>
+            <div>
+                <label for="title">Title</label><br>
+                <input type="text" name="title">
+            </div>
+            <div>
+                <label for="content">Content</label><br>
+                <textarea name="content" cols="30" rows="10"></textarea>
+            </div>
+            <button id="submitTodo" class="btn btn-success">Submit</button>
+            <button id="submitEdit" class="btn btn-success" hidden>Edit</button>
+        </div>
+    </section>
+    <footer id="footer">
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
